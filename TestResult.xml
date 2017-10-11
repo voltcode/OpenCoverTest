@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.7.0.0" clr-version="4.0.30319.42000" start-time="2017-10-11 18:32:03Z" end-time="2017-10-11 18:32:06Z" duration="2.290239">
+  <command-line><![CDATA["C:\src\opencover2\ClassLibrary1\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe" Test\bin\Debug\Test.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1002" name="Test.dll" fullname="C:\src\opencover2\Test\bin\Debug\Test.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-10-11 18:32:05Z" end-time="2017-10-11 18:32:06Z" duration="0.076078" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.8.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.15063.0" platform="Win32NT" cwd="C:\src\opencover2" machine-name="DESKTOP-6B4TETJ" user="volt" user-domain="DESKTOP-6B4TETJ" culture="pl-PL" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\src\opencover2" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="7800" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1003" name="Test" fullname="Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-10-11 18:32:05Z" end-time="2017-10-11 18:32:06Z" duration="0.057728" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <test-suite type="TestFixture" id="0-1000" name="TestClass" fullname="Test.TestClass" classname="Test.TestClass" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-10-11 18:32:06Z" end-time="2017-10-11 18:32:06Z" duration="0.051828" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <test-case id="0-1001" name="IsCorrect" fullname="Test.TestClass.IsCorrect" methodname="IsCorrect" classname="Test.TestClass" runstate="Runnable" seed="1437805489" result="Passed" start-time="2017-10-11 18:32:06Z" end-time="2017-10-11 18:32:06Z" duration="0.029809" asserts="1" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

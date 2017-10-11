@@ -59,4 +59,9 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>$(SolutionDir)packages\OpenCover.4.6.519\tools\OpenCover.Console.exe -target:"$(SolutionDir)\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe" -targetargs:"$(SolutionDir)..\Test\bin\Debug\Test.dll"  -register:user -filter:+[*]* -output:"$(SolutionDir)..\output3.xml"
+
+$(SolutionDir)\packages\ReportGenerator.3.0.1\tools\ReportGenerator.exe -reports:"$(SolutionDir)..\output3.xml" -targetdir:"$(SolutionDir)..\coveragereport"</PostBuildEvent>
+  </PropertyGroup>
 </Project>
