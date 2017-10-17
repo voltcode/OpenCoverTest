@@ -1,0 +1,11 @@
+C:\src\opencover2\CustomReport\bin\Debug\CustomReport.dll
+C:\src\opencover2\CustomReport\bin\Debug\CustomReport.pdb
+C:\src\opencover2\CustomReport\bin\Debug\ReportGenerator.exe
+C:\src\opencover2\CustomReport\bin\Debug\ICSharpCode.NRefactory.dll
+C:\src\opencover2\CustomReport\bin\Debug\ICSharpCode.NRefactory.CSharp.dll
+C:\src\opencover2\CustomReport\bin\Debug\ReportGenerator.xml
+C:\src\opencover2\CustomReport\bin\Debug\ReportGenerator.exe.config
+C:\src\opencover2\CustomReport\obj\Debug\CustomReport.csprojResolveAssemblyReference.cache
+C:\src\opencover2\CustomReport\obj\Debug\CustomReport.csproj.CoreCompileInputs.cache
+C:\src\opencover2\CustomReport\obj\Debug\CustomReport.dll
+C:\src\opencover2\CustomReport\obj\Debug\CustomReport.pdb

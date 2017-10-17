@@ -319,7 +319,7 @@ var assemblies = [
   {
     "name" : "ClassLibrary2",
     "classes" : [
-    {  "name" : "ClassLibrary2.Class2", "reportPath" : "ClassLibrary2_Class2.htm", "coveredLines" : 3, "uncoveredLines" : 0, "coverableLines" : 3, "totalLines" : 16, "coverageType" : "LineCoverage", "methodCoverage" : "-", "coveredBranches" : 0, "totalBranches" : 0, "lineCoverageHistory" : [], "branchCoverageHistory" : [] },
+    {  "name" : "ClassLibrary2.Class2", "reportPath" : "ClassLibrary2_Class2.htm", "coveredLines" : 6, "uncoveredLines" : 0, "coverableLines" : 6, "totalLines" : 16, "coverageType" : "LineCoverage", "methodCoverage" : "-", "coveredBranches" : 0, "totalBranches" : 0, "lineCoverageHistory" : [], "branchCoverageHistory" : [] },
   ]},
   {
     "name" : "Test",

@@ -54,14 +54,18 @@
       <Project>{7e33a99f-c072-4c71-91e5-8b0d008fccfb}</Project>
       <Name>ClassLibrary2</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ProfilerAttribute\ProfilerAttribute.csproj">
+      <Project>{04047332-5b56-406a-8e30-d096e20e123c}</Project>
+      <Name>ProfilerAttribute</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>$(SolutionDir)packages\OpenCover.4.6.519\tools\OpenCover.Console.exe -target:"$(SolutionDir)\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe" -targetargs:"$(SolutionDir)..\Test\bin\Debug\Test.dll"  -register:user -filter:+[*]* -output:"$(SolutionDir)..\output3.xml"
+    <PostBuildEvent>REM $(SolutionDir)packages\OpenCover.4.6.519\tools\OpenCover.Console.exe -target:"$(SolutionDir)\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe" -targetargs:"$(SolutionDir)..\Test\bin\Debug\Test.dll"  -register:user -filter:+[*]* -output:"$(SolutionDir)..\output3.xml"
 
-$(SolutionDir)\packages\ReportGenerator.3.0.1\tools\ReportGenerator.exe -reports:"$(SolutionDir)..\output3.xml" -targetdir:"$(SolutionDir)..\coveragereport"</PostBuildEvent>
+REM $(SolutionDir)\packages\ReportGenerator.3.0.1\tools\ReportGenerator.exe -reports:"$(SolutionDir)..\output3.xml" -targetdir:"$(SolutionDir)..\coveragereport"</PostBuildEvent>
   </PropertyGroup>
 </Project>

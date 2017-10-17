@@ -1,0 +1,13 @@
+
+C:\src\opencover2>echo 21:12:57,96 
+21:12:57,96
+
+C:\src\opencover2>C:\src\opencover\main\bin\Release\OpenCover.Console.exe -target:"ClassLibrary1\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe" -showvisited -targetargs:"Test\bin\Debug\Test.dll"  -register:user -filter:+[*]* -output:output3.xml 
+Failed to register(user:True,register:True,is64:True):3 the profiler assembly; you may want to look into permissions or using the -register:user option instead. C:\WINDOWS\system32\regsvr32.exe /s  /n /i:user "C:\src\opencover\main\bin\Release\x64\OpenCover.Profiler.dll"
+If you are unable to resolve the issue please contact the OpenCover development team
+see https://www.github.com/opencover/opencover/issues
+
+C:\src\opencover2>echo 21:12:58,20 
+21:12:58,20
+
+C:\src\opencover2>REM ClassLibrary1\packages\ReportGenerator.3.0.1\tools\ReportGenerator.exe -reports:output3.xml -targetdir:coveragereport -reporttypes:"Html;HtmlSummary;CsvSummary;Badges;PngChart;TextSummary" 

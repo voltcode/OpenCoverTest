@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.7.0.0" clr-version="4.0.30319.42000" start-time="2017-10-11 18:32:03Z" end-time="2017-10-11 18:32:06Z" duration="2.290239">
-  <command-line><![CDATA["C:\src\opencover2\ClassLibrary1\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe" Test\bin\Debug\Test.dll]]></command-line>
-  <test-suite type="Assembly" id="0-1002" name="Test.dll" fullname="C:\src\opencover2\Test\bin\Debug\Test.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-10-11 18:32:05Z" end-time="2017-10-11 18:32:06Z" duration="0.076078" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+<test-run id="2" testcasecount="1" result="Failed" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.7.0.0" clr-version="4.0.30319.42000" start-time="2017-10-17 21:43:05Z" end-time="2017-10-17 21:43:05Z" duration="0.596169">
+  <command-line><![CDATA[ClassLibrary1\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe  Test\bin\Debug\Test.dll ]]></command-line>
+  <test-suite type="Assembly" id="0-1002" name="Test.dll" fullname="C:\src\opencover2\Test\bin\Debug\Test.dll" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-10-17 21:43:05Z" end-time="2017-10-17 21:43:05Z" duration="0.064105" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
     <environment framework-version="3.8.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.15063.0" platform="Win32NT" cwd="C:\src\opencover2" machine-name="DESKTOP-6B4TETJ" user="volt" user-domain="DESKTOP-6B4TETJ" culture="pl-PL" uiculture="en-US" os-architecture="x64" />
     <settings>
       <setting name="DisposeRunners" value="True" />
@@ -13,12 +13,32 @@
       <setting name="NumberOfTestWorkers" value="8" />
     </settings>
     <properties>
-      <property name="_PID" value="7800" />
+      <property name="_PID" value="15232" />
       <property name="_APPDOMAIN" value="domain-" />
     </properties>
-    <test-suite type="TestSuite" id="0-1003" name="Test" fullname="Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-10-11 18:32:05Z" end-time="2017-10-11 18:32:06Z" duration="0.057728" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
-      <test-suite type="TestFixture" id="0-1000" name="TestClass" fullname="Test.TestClass" classname="Test.TestClass" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-10-11 18:32:06Z" end-time="2017-10-11 18:32:06Z" duration="0.051828" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
-        <test-case id="0-1001" name="IsCorrect" fullname="Test.TestClass.IsCorrect" methodname="IsCorrect" classname="Test.TestClass" runstate="Runnable" seed="1437805489" result="Passed" start-time="2017-10-11 18:32:06Z" end-time="2017-10-11 18:32:06Z" duration="0.029809" asserts="1" />
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1003" name="Test" fullname="Test" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-10-17 21:43:05Z" end-time="2017-10-17 21:43:05Z" duration="0.045386" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1000" name="TestClass" fullname="Test.TestClass" classname="Test.TestClass" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-10-17 21:43:05Z" end-time="2017-10-17 21:43:05Z" duration="0.039273" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="0-1001" name="IsCorrect" fullname="Test.TestClass.IsCorrect" methodname="IsCorrect" classname="Test.TestClass" runstate="Runnable" seed="747150405" result="Failed" label="Error" start-time="2017-10-17 21:43:05Z" end-time="2017-10-17 21:43:05Z" duration="0.028040" asserts="0">
+          <failure>
+            <message><![CDATA[System.ComponentModel.Win32Exception : The system cannot find the file specified]]></message>
+            <stack-trace><![CDATA[   at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at Profiler.ProfilerAttribute.ProfilerCommand.Execute(TestExecutionContext context) in C:\src\opencover2\ProfilerAttribute\ProfilerAttribute.cs:line 67
+   at NUnit.Framework.Internal.Execution.SimpleWorkItem.PerformWork()]]></stack-trace>
+          </failure>
+          <output><![CDATA[arguments
+ -target:"C:\src\opencover2\ClassLibrary1\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-consolefff.exe" -register:user -filter:"+[*]* -[Profiler*]* -[NUnit*]*" -output:"C:\src\opencover2\Test\bin\Debug\test_output.xml" -targetargs:"C:\src\opencover2\Test\bin\Debug\Test.dll --params=COV=TRUE --test=Test.TestClass.IsCorrect"
+]]></output>
+        </test-case>
       </test-suite>
     </test-suite>
   </test-suite>

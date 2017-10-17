@@ -6,9 +6,9 @@ namespace ClassLibrary2
     {
         public static int M2()
         {
-            //Class1.M1();
-            //Class1.M1();
-            //Class1.M1();
+            Class1.M1();
+            Class1.M1();
+            Class1.M1();
 
             return Class1.M1() + 2;
         }

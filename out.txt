@@ -1,0 +1,48 @@
+
+C:\src\opencover2>C:\src\opencover\main\bin\Debug\OpenCover.Console.exe -target:"ClassLibrary1\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe" -showvisited -targetargs:"Test\bin\Debug\Test.dll"  -register:user -filter:+[*]* -output:output3.xml 
+Executing: C:\src\opencover2\ClassLibrary1\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe
+NUnit Console Runner 3.7.0 
+Copyright (c) 2017 Charlie Poole, Rob Prouse
+
+Runtime Environment
+   OS Version: Microsoft Windows NT 10.0.15063.0
+  CLR Version: 4.0.30319.42000
+
+Test Files
+    Test\bin\Debug\Test.dll
+
+
+Run Settings
+    DisposeRunners: True
+    WorkDirectory: C:\src\opencover2
+    ImageRuntimeVersion: 4.0.30319
+    ImageTargetFrameworkName: .NETFramework,Version=v4.6.1
+    ImageRequiresX86: False
+    ImageRequiresDefaultAppDomainAssemblyResolver: False
+    NumberOfTestWorkers: 8
+
+Test Run Summary
+  Overall result: Passed
+  Test Count: 1, Passed: 1, Failed: 0, Warnings: 0, Inconclusive: 0, Skipped: 0
+  Start time: 2017-10-15 19:35:57Z
+    End time: 2017-10-15 19:36:00Z
+    Duration: 2.312 seconds
+
+Results (nunit3) saved as TestResult.xml
+Committing...
+Visited Classes 3 of 3 (100)
+Visited Methods 3 of 3 (100)
+Visited Points 13 of 13 (100)
+Visited Branches 3 of 3 (100)
+
+==== Alternative Results (includes all methods including those without corresponding source) ====
+Alternative Visited Classes 3 of 3 (100)
+Alternative Visited Methods 3 of 6 (50)
+
+====Visited Methods====
+System.Void Test.TestClass::IsCorrect():1
+System.Int32 ClassLibrary2.Class2::M2():1
+System.Int32 ClassLibrary1.Class1::M1():4
+Total method visits: 6
+
+C:\src\opencover2>REM ClassLibrary1\packages\ReportGenerator.3.0.1\tools\ReportGenerator.exe -reports:output3.xml -targetdir:coveragereport -reporttypes:"Html;HtmlSummary;CsvSummary;Badges;PngChart;TextSummary" 

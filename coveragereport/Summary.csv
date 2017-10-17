@@ -1,0 +1,23 @@
+﻿Summary
+Generated on:;11.10.2017 - 22:46:20
+Parser:;OpenCoverParser
+Assemblies:;3
+Classes:;3
+Files:;3
+Line coverage:;100.0%
+Covered lines:;13
+Uncovered lines:;0
+Coverable lines:;13
+Total lines:;55
+
+ClassLibrary1;100.0%
+
+ClassLibrary1.Class1;100.0%
+
+ClassLibrary2;100.0%
+
+ClassLibrary2.Class2;100.0%
+
+Test;100.0%
+
+Test.TestClass;100.0%

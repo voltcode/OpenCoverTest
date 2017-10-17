@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="3" numClasses="3" visitedMethods="3" numMethods="3" />
+  <Summary numSequencePoints="13" visitedSequencePoints="13" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="3" numClasses="3" visitedMethods="3" numMethods="3" />
   <Modules>
-    <Module skippedDueTo="Filter" hash="FB-EC-5F-23-1E-5F-D3-C0-CC-A2-67-9A-51-DD-E0-DA-86-6C-59-62">
+    <Module skippedDueTo="Filter" hash="00-F3-05-6F-08-92-B6-6B-3E-5F-7D-EC-0B-D4-5C-AA-27-07-BD-32">
       <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
-      <ModuleTime>2017-09-01T05:56:20.9314039Z</ModuleTime>
+      <ModuleTime>2017-09-21T01:37:46.2523965Z</ModuleTime>
       <ModuleName>mscorlib</ModuleName>
       <Classes />
     </Module>
@@ -68,9 +68,9 @@
       <ModuleName>System.Configuration</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="FB-EC-5F-23-1E-5F-D3-C0-CC-A2-67-9A-51-DD-E0-DA-86-6C-59-62">
+    <Module skippedDueTo="Filter" hash="00-F3-05-6F-08-92-B6-6B-3E-5F-7D-EC-0B-D4-5C-AA-27-07-BD-32">
       <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
-      <ModuleTime>2017-09-01T05:56:20.9314039Z</ModuleTime>
+      <ModuleTime>2017-09-21T01:37:46.2523965Z</ModuleTime>
       <ModuleName>mscorlib</ModuleName>
       <Classes />
     </Module>
@@ -140,9 +140,9 @@
       <ModuleName>System</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="EC-C8-73-33-83-EB-E9-33-AC-FD-CC-8D-E1-9C-57-8F-47-55-09-A9">
+    <Module skippedDueTo="Filter" hash="91-8D-5D-09-8B-46-72-DE-47-F9-9A-32-47-9C-CD-E7-EF-B9-AA-60">
       <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
-      <ModuleTime>2017-10-08T05:54:34.0291294Z</ModuleTime>
+      <ModuleTime>2017-09-27T01:42:36.3408136Z</ModuleTime>
       <ModuleName>System.Core</ModuleName>
       <Classes />
     </Module>
@@ -152,10 +152,10 @@
       <ModuleName>System.Web</ModuleName>
       <Classes />
     </Module>
-    <Module hash="AE-34-DA-D9-CB-38-9F-80-F1-32-C1-9C-F5-25-99-E1-CC-7D-10-26">
+    <Module hash="44-82-C5-3C-AF-E7-BC-D0-84-3E-D3-1C-E8-34-A1-72-E8-64-4F-C1">
       <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
       <ModulePath>C:\src\opencover2\Test\bin\Debug\Test.dll</ModulePath>
-      <ModuleTime>2017-10-11T18:41:04.7677509Z</ModuleTime>
+      <ModuleTime>2017-10-17T17:19:53.0929154Z</ModuleTime>
       <ModuleName>Test</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\src\opencover2\Test\Class1.cs" />
@@ -202,10 +202,10 @@
       <ModuleName>System.Xml</ModuleName>
       <Classes />
     </Module>
-    <Module hash="3F-C4-0A-2D-F7-C3-82-DA-B8-2D-1B-33-3B-8A-39-DB-30-35-C7-68">
-      <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+    <Module hash="CC-D6-87-B4-A3-B4-2D-1F-51-2D-8F-BF-47-AE-89-AF-CA-36-97-4E">
+      <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
       <ModulePath>C:\src\opencover2\Test\bin\Debug\ClassLibrary2.dll</ModulePath>
-      <ModuleTime>2017-10-11T18:41:04.6514266Z</ModuleTime>
+      <ModuleTime>2017-10-17T17:19:52.9471287Z</ModuleTime>
       <ModuleName>ClassLibrary2</ModuleName>
       <Files>
         <File uid="3" fullPath="C:\src\opencover2\ClassLibrary2\Class2.cs" />
@@ -217,18 +217,21 @@
           <Methods />
         </Class>
         <Class>
-          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
           <FullName>ClassLibrary2.Class2</FullName>
           <Methods>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663297</MetadataToken>
               <Name>System.Int32 ClassLibrary2.Class2::M2()</Name>
               <FileRef uid="3" />
               <SequencePoints>
                 <SequencePoint vc="1" uspid="6" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="10" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="1" uspid="7" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="36" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="1" uspid="8" ordinal="2" offset="11" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="7" ordinal="1" offset="1" sl="9" sc="13" el="9" ec="25" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="8" ordinal="2" offset="7" sl="10" sc="13" el="10" ec="25" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="9" ordinal="3" offset="13" sl="11" sc="13" el="11" ec="25" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="10" ordinal="4" offset="19" sl="13" sc="13" el="13" ec="36" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="11" ordinal="5" offset="29" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="3" />
               </SequencePoints>
               <BranchPoints />
               <MethodPoint xsi:type="SequencePoint" vc="1" uspid="6" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="10" bec="0" bev="0" fileid="3" />
@@ -239,16 +242,16 @@
               <Name>System.Void ClassLibrary2.Class2::.ctor()</Name>
               <SequencePoints />
               <BranchPoints />
-              <MethodPoint vc="0" uspid="9" ordinal="0" offset="0" />
+              <MethodPoint vc="0" uspid="12" ordinal="0" offset="0" />
             </Method>
           </Methods>
         </Class>
       </Classes>
     </Module>
-    <Module hash="62-DB-EA-3C-DC-0C-00-37-A2-49-ED-A4-67-06-69-F9-98-A6-C2-63">
+    <Module hash="63-A7-8D-17-B4-D6-94-FC-52-B3-B4-81-90-66-50-9B-CC-40-41-7F">
       <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
       <ModulePath>C:\src\opencover2\Test\bin\Debug\ClassLibrary1.dll</ModulePath>
-      <ModuleTime>2017-10-11T18:41:04.5003708Z</ModuleTime>
+      <ModuleTime>2017-10-17T17:19:52.7757382Z</ModuleTime>
       <ModuleName>ClassLibrary1</ModuleName>
       <Files>
         <File uid="5" fullPath="C:\src\opencover2\ClassLibrary1\ClassLibrary1\Class1.cs" />
@@ -269,12 +272,12 @@
               <Name>System.Int32 ClassLibrary1.Class1::M1()</Name>
               <FileRef uid="5" />
               <SequencePoints>
-                <SequencePoint vc="1" uspid="10" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="5" />
-                <SequencePoint vc="1" uspid="11" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="22" bec="0" bev="0" fileid="5" />
-                <SequencePoint vc="1" uspid="12" ordinal="2" offset="5" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="4" uspid="13" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="4" uspid="14" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="22" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="4" uspid="15" ordinal="2" offset="5" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="5" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="10" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="5" />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="13" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="5" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
@@ -282,7 +285,7 @@
               <Name>System.Void ClassLibrary1.Class1::.ctor()</Name>
               <SequencePoints />
               <BranchPoints />
-              <MethodPoint vc="0" uspid="13" ordinal="0" offset="0" />
+              <MethodPoint vc="0" uspid="16" ordinal="0" offset="0" />
             </Method>
           </Methods>
         </Class>

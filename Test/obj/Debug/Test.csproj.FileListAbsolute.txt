@@ -10,3 +10,5 @@ C:\src\opencover2\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
 C:\src\opencover2\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
 C:\src\opencover2\Test\obj\Debug\Test.dll
 C:\src\opencover2\Test\obj\Debug\Test.pdb
+C:\src\opencover2\Test\bin\Debug\ProfilerAttribute.dll
+C:\src\opencover2\Test\bin\Debug\ProfilerAttribute.pdb
