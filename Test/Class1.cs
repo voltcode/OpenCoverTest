@@ -1,26 +1,34 @@
 ﻿using ClassLibrary2;
 using NUnit.Framework;
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Profiler;
 
 namespace Test
 {
     [TestFixture]
     public class TestClass
-    {
-        
-        [Profiler.Profiler(2L, @"C:\src\opencover\main\bin\Debug\OpenCover.Console.exe", @"C:\src\opencover2\ClassLibrary1\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe")]
-        [Test]
+    {        
+        [TotalMethodCallsAssertion(maximum:2L, OpenCoverConsolePath=@"C:\src\opencover\main\bin\Debug\OpenCover.Console.exe", NUnit3ConsolePath = @"C:\src\opencover2\ClassLibrary1\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe")]
         public void IsCorrect()
         {
             var x = Class2.M2();
 
-            //Assert.AreEqual(3, x);
+            Assert.AreEqual(3, x);
         }
-        
+
+        [TotalMethodCallsAssertion(maximum: 7L)]
+        public void IsCorrect2()
+        {
+            var x = Class2.M2();
+
+            Assert.AreEqual(3, x);
+        }
+
+        [TotalMethodCallsAssertion(maximum: 6L, OpenCoverConsolePath = @"C:\src\opencover\main\bin\Debug\OpenCover.Console.exe", NUnit3ConsolePath = @"C:\src\opencover2\ClassLibrary1\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe")]
+        public void IsCorrect3()
+        {
+            var x = Class2.M2();
+
+            Assert.AreEqual(3, x);
+        }
     }
 }

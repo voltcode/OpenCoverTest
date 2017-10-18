@@ -12,3 +12,4 @@ C:\src\opencover2\Test\obj\Debug\Test.dll
 C:\src\opencover2\Test\obj\Debug\Test.pdb
 C:\src\opencover2\Test\bin\Debug\ProfilerAttribute.dll
 C:\src\opencover2\Test\bin\Debug\ProfilerAttribute.pdb
+C:\src\opencover2\Test\bin\Debug\Test.dll.config

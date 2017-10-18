@@ -2,7 +2,7 @@ C:\src\opencover2\ProfilerAttribute\bin\Debug\ProfilerAttribute.dll
 C:\src\opencover2\ProfilerAttribute\bin\Debug\ProfilerAttribute.pdb
 C:\src\opencover2\ProfilerAttribute\bin\Debug\nunit.framework.dll
 C:\src\opencover2\ProfilerAttribute\bin\Debug\nunit.framework.xml
-C:\src\opencover2\ProfilerAttribute\obj\Debug\ProfilerAttribute.csprojResolveAssemblyReference.cache
 C:\src\opencover2\ProfilerAttribute\obj\Debug\ProfilerAttribute.csproj.CoreCompileInputs.cache
 C:\src\opencover2\ProfilerAttribute\obj\Debug\ProfilerAttribute.dll
 C:\src\opencover2\ProfilerAttribute\obj\Debug\ProfilerAttribute.pdb
+C:\src\opencover2\ProfilerAttribute\obj\Debug\ProfilerAttribute.csprojResolveAssemblyReference.cache
